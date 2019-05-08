@@ -1,0 +1,39 @@
+.nav#navbar-container {
+  position: fixed ;
+  height: 36px ;
+  width: 100% ;
+  background-color: #bab291 ;
+  border-bottom: 1px solid black ;
+  top: 0 ;
+  left: 0 ;
+  text-align: left ;
+  z-index: 100 ;
+}
+#logo {
+  font-size: 32px ;
+  font-weight: bold ;
+  margin-left: 5% ;
+}
+#navbtn-container {
+  float: right ;
+  vertical-align: middle ;
+  margin-right: 5% ;
+  height: 36px ;
+
+}
+#nav-username {
+  margin-right: 6px ;
+}
+.navbtn {
+  border: 1px solid black ;
+  text-decoration: none ;
+  font-weight: bold ;
+  line-height: 36px ;
+  color: black ;
+  font-size: 16px ;
+  padding: 6px ;
+}
+.navbtn:hover {
+  background-color: #C9C19F ;
+
+}

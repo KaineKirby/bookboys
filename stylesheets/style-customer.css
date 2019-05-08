@@ -1,0 +1,434 @@
+body {
+  text-align: center ;
+}
+.add-book#add-book-container {
+  margin-top: 42px ;
+  text-align: center ;
+  background-color: #bab291 ;
+  padding: 12px ;
+  display: inline-block ;
+}
+.add-book-text {
+  font-size: 24px ;
+  margin: 0 ;
+  padding: 0 ;
+}
+#header {
+  font-weight: bold ;
+  font-size: 36px ;
+}
+.add-book-box {
+  font-size: 24px ;
+  padding: 4px ;
+  margin: 12px ;
+  border-radius: 4px ;
+}
+.add-book-btn {
+  font-size: 24px ;
+  padding: 4px ;
+  margin: 12px ;
+  border-radius: 4px ;
+}
+.search#search-container {
+  margin-top: 40px ;
+}
+.books-list#book-list-container {
+  display: inline-block ;
+  text-align: center ;
+  width: 100% ;
+
+}
+.book-item {
+  display: inline-block ;
+  text-align: center ;
+  background-color: #bab291 ;
+  position: relative ;
+  width: 90% ;
+  height: 120px ;
+  border-bottom: 1px #C9C19F solid ;
+}
+.book-thumbnail {
+  height: 100px ;
+  position: absolute ;
+  top: 0 ;
+  left: 0 ;
+
+}
+.book-inner-text {
+  position: absolute ;
+
+}
+.book-thumbnail {
+  top: 10px ;
+  left: 20px ;
+}
+#book-title.book-inner-text {
+  color: blue ;
+  top: 30px ;
+  left: 110px ;
+  font-size: 24px ;
+  font-weight: bold ;
+  text-decoration: none ;
+}
+#book-title.book-inner-text:visited {
+  color: blue ;
+}
+#book-title.book-inner-text:hover {
+  color: #5897fc ;
+}
+#book-author.book-inner-text {
+  top: 40px ;
+  left: 110px ;
+  font-size: 16px ;
+}
+#book-publisher.book-inner-text {
+  top: 62px ;
+  left: 110px ;
+  font-size: 12px ;
+}
+#book-edition.book-inner-text {
+  top: 76px ;
+  left: 110px ;
+  font-size: 12px ;
+}
+#book-isbn.book-inner-text {
+  top: 3px ;
+  right: 6px ;
+  font-size: 12px ;
+}
+#book-price.book-inner-text {
+  top: 6px ;
+  right: 6px ;
+  font-size: 24px ;
+  font-weight: bold ;
+}
+#book-sell-price.book-inner-text {
+  top: 32px ;
+  right: 6px ;
+  font-size: 24px ;
+  font-weight: bold ;
+}
+#book-quantity.book-inner-text {
+  top: 24px ;
+  right: 6px ;
+  font-size: 16px ;
+}
+#book-quantity-threshold.book-inner-text {
+  bottom: 3px ;
+  right: 6px ;
+  font-size: 16px ;
+}
+.page-number {
+  color: blue ;
+  font-size: 24px ;
+  font-weight: bold ;
+  text-decoration: none ;
+  padding: 4px ;
+}
+.page-number:visited {
+  color: blue ;
+}
+.page-number:hover {
+  color: #5897fc ;
+}
+#search-container.search {
+  text-align: center ;
+}
+#search-form-container.search {
+  display: inline-block ;
+  background-color: #bab291 ;
+  width: 90% ;
+
+}
+#search-box.search-text-box {
+  width: 300px ;
+  font-size: 32px ;
+}
+#selection.search-text-box {
+  font-size: 32px ;
+}
+#search-submit.search-btn {
+  font-size: 32px ;
+  background-color: #bab291 ;
+  border: 1px solid black ;
+}
+#search-submit.search-btn:hover {
+  background-color: #C9C19F ;
+  cursor: pointer ;
+}
+
+#search-label.search-text {
+  font-size: 32px ;
+  display: inline-block ;
+}
+.page-container {
+  margin-left: 5% ;
+  margin-right: 5% ;
+  float: left ;
+
+}
+#user-query.search-text {
+  font-size: 24px ;
+
+}
+.inventory-text {
+  font-size: 24px ;
+}
+#header.inventory-text {
+  margin-top: 36px ;
+}
+#inventory-header-container {
+  display: inline-block ;
+  width: 90% ;
+  background-color: #bab291 ;
+}
+/* buy box for manager*/
+.buy-quantity {
+  width: 60px ;
+  font-size: 32px ;
+}
+#book-price.book-info-text {
+  font-size: 32px ;
+  margin-bottom: 12px ;
+}
+#book-buy-box {
+
+}
+.buy-submit {
+  margin-left: 12px ;
+  height: 42px ;
+  vertical-align: top ;
+  font-size: 24px ;
+  background-color: #bab291 ;
+  border: 1px solid black ;
+}
+.buy-submit:hover {
+  background-color: #C9C19F ;
+  cursor: pointer ;
+}
+.book-edit-link {
+  border: 1px solid black ;
+  text-decoration: none ;
+  font-weight: bold ;
+  line-height: 36px ;
+  color: black ;
+  font-size: 16px ;
+  padding: 6px ;
+}
+.book-edit-link:hover {
+  cursor: pointer ;
+  background-color: #C9C19F ;
+}
+#book-stock-div {
+  margin-top: 20px ;
+}
+.stock-threshold {
+  width: 40px ;
+  margin-bottom: 10px ;
+
+}
+.stock-sell-price {
+  width: 40px ;
+  margin-bottom: 10px ;
+
+}
+.stock-submit {
+  height: 42px ;
+  vertical-align: top ;
+  font-size: 16px ;
+  background-color: #bab291 ;
+  border: 1px solid black ;
+}
+.stock-submit:hover {
+  background-color: #C9C19F ;
+  cursor: pointer ;
+}
+.stock-label {
+  margin: 0 ;
+  display: inline-block ;
+  width: 100px ;
+}
+/*Cart items*/
+#main.cart-div {
+  margin-top: 42px ;
+}
+.cart-item {
+  display: inline-block ;
+  text-align: center ;
+  background-color: #bab291 ;
+  position: relative ;
+  width: 80% ;
+  height: 90px ;
+  border-bottom: 1px #C9C19F solid ;
+}
+.book-cart-thumbnail {
+  height: 50px ;
+  position: absolute ;
+  top: 20px ;
+  left: 10px ;
+}
+#cart-book-name.cart-inner-text {
+  position: absolute ;
+  top: 25px ;
+  left: 56px ;
+  font-size: 16px ;
+  font-weight: bold ;
+  text-decoration: none ;
+}
+#cart-book-name.cart-inner-text:visited {
+  color: blue ;
+}
+#cart-book-name.cart-inner-text:hover {
+  color: #5897fc ;
+}
+#cart-author-name.cart-inner-text {
+  position: absolute ;
+  top: 30px ;
+  left: 56px ;
+  font-size: 12px ;
+}
+
+#cart-isbn.cart-inner-text {
+  position: absolute ;
+  top: 48px ;
+  left: 56px ;
+  font-size: 8px ;
+}
+/*
+#cart-publisher-name.cart-inner-text {
+  position: absolute ;
+  top: 10px ;
+  left: 10px ;
+}
+#cart-edition.cart-inner-text {
+  position: absolute ;
+  top: 10px ;
+  left: 10px ;
+}*/
+#cart-price.cart-inner-text {
+  position: absolute ;
+  top: 5px ;
+  right: 120px ;
+  font-size: 16px ;
+  font-weight: bold ;
+}
+#cart-quantity.cart-inner-text {
+  position: absolute ;
+  top: 26px ;
+  right: 120px ;
+  font-size: 12px ;
+}
+#cart-total.cart-inner-text {
+  position: absolute ;
+  top: 32px ;
+  right: 120px ;
+  font-size: 20px ;
+  font-weight: bold ;
+
+}
+#complete-total.cart-inner-text {
+  position: absolute ;
+  top: 10px ;
+  right: 120px ;
+  font-size: 20px ;
+  font-weight: bold ;
+}
+.cart-btn {
+  position: absolute ;
+  right: 10px ;
+  top: 28px ;
+  font-size: 20px ;
+  background-color: #bab291 ;
+  border: 1px solid black ;
+}
+.cart-btn:hover {
+  cursor: pointer ;
+  background-color: #C9C19F ;
+}
+.checkout-btn {
+  position: absolute ;
+  right: 10px ;
+  top: 20px ;
+  border: 1px solid black ;
+  text-decoration: none ;
+  font-weight: bold ;
+  line-height: 36px ;
+  color: black ;
+  font-size: 16px ;
+  padding: 6px ;
+}
+.checkout-btn:hover {
+  background-color: #C9C19F ;
+}
+/*checkout page stuff*/
+.checkout-div {
+  margin-top: 48px ;
+}
+#title.checkout-text {
+  font-size: 36px ;
+  font-weight: bold ;
+}
+/*Order page*/
+#order-container {
+  margin-top: 48px ;
+}
+.order-item {
+  display: inline-block ;
+  text-align: center ;
+  background-color: #bab291 ;
+  position: relative ;
+  width: 80% ;
+  height: 90px ;
+  border-bottom: 1px #C9C19F solid ;
+}
+#total.order-text {
+  position: absolute ;
+  top: 26px ;
+  right: 10px ;
+  font-size: 28px ;
+  color: blue ;
+  text-decoration: none ;
+  font-weight: bold ;
+}
+#total.order-text:hover {
+  color: #5897fc ;
+}
+#address-label.order-text {
+  position: absolute ;
+  top: 30px ;
+  left: 10px ;
+  font-weight: bold ;
+}
+#tracking-label.order-text {
+  position: absolute ;
+  top: 6px ;
+  left: 10px ;
+  font-weight: bold ;
+
+}
+#date-label.order-text {
+  position: absolute ;
+  top: 54px ;
+  left: 10px ;
+  font-weight: bold ;
+
+}
+#address.order-text {
+  position: absolute ;
+  top: 15px ;
+  left: 100px ;
+}
+#tracking.order-text {
+  position: absolute ;
+  top: -9px ;
+  left: 100px ;
+}
+#date.order-text {
+  position: absolute ;
+  top: 39px ;
+  left: 100px ;
+}
+#title.order-text {
+  font-size: 36px ;
+  font-weight: bold ;
+}

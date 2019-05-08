@@ -1,0 +1,72 @@
+/*
+https://coolors.co/5b5b5b-7d7c7a-c9c19f-edf7d2-edf7b5
+for color scheme
+background: 5B5B5B
+navbar/div boxes: 7D7C7A
+accent color 1: C9C19F
+accent color 2: EDF7D2
+accent color 3: EDF7B5
+*/
+body {
+  font-family: Sans-serif ;
+  background-color: #C9C19F ;
+  text-align: center ;
+}
+
+
+/* for the book page */
+.book-container {
+  display: inline-block ;
+  text-align: left ;
+  background-color: #bab291 ;
+  margin-top: 60px ;
+
+  width: 90% ;
+
+}
+.book-cover {
+  height: 500px ;
+  padding: 24px ;
+  display: inline-block ;
+}
+#book-info-box {
+  display: inline-block ;
+  padding: 24px ;
+  vertical-align: top ;
+}
+.book-info-text {
+  font-size: 24px ;
+  padding: 0 ;
+  margin: 0 ;
+
+}
+#book-title.book-info-text {
+  font-weight: bold ;
+  font-size: 46px ;
+}
+#book-buy-box {
+  display: inline-block ;
+  vertical-align: top ;
+  padding: 24px ;
+}
+#main.main-page {
+  display: inline-block ;
+  background-color: #bab291 ;
+  text-align: center ;
+  width: 80% ;
+  padding: 40px ;
+  vertical-align: middle ;
+
+}
+.main-link {
+  border: 1px solid black ;
+  text-decoration: none ;
+  font-weight: bold ;
+  line-height: 36px ;
+  color: black ;
+  font-size: 16px ;
+  padding: 6px ;
+}
+.main-link:hover {
+  background-color: #C9C19F ;
+}
